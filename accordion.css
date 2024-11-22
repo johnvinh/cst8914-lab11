@@ -41,6 +41,10 @@ button.accordion.is-open {
   background-color: #ddd;
 }
 
+button.accordion:focus {
+    outline: blue auto 5px;
+}
+
 .accordion-content {
   background-color: white;
   border-left: 1px solid whitesmoke;
